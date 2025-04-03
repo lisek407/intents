@@ -5,6 +5,7 @@ intents:
       - sentences:
           - "<turn_on> <name> [<area>]"
           - "[<area>] <turn_on> <name>"
+          - "Test 2"
         excludes_context:
           domain:
             - binary_sensor
